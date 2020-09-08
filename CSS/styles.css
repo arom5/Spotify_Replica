@@ -1,0 +1,205 @@
+
+dl {
+    max-height: 2em;
+
+}
+dt{
+  color: grey;
+  margin-top: 5%;
+  margin-left: 30px;
+
+}
+
+.dd-content{
+  color:#fff;
+  margin-top: 2px;
+  padding: 2px;
+  height: 1em;
+  line-height: 0;
+
+
+
+}
+
+nav{
+  background-color: black;
+}
+body{
+  background-image: url(../Images/spotify-background.png);
+  background-size: cover;
+}
+
+
+.footer{
+  background-color: black;
+padding: 5%;
+
+}
+.footer-end{
+  color:white;
+  background-color: black;
+
+
+
+
+}
+.footer-big-container{
+  padding: 0% 20% 0% 20% ;
+}
+.footer-container{
+display: grid;
+height: 40vh;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+grid-template-areas:
+"container1 container2 container3 container4";
+
+
+
+}
+
+#container1{
+
+grid-area:container1;
+
+}
+#container2{
+
+grid-area: container2;
+
+}
+#container3{
+
+grid-area:container3;
+
+}
+
+#container4{
+
+grid-area:container4;
+
+}
+
+@media only screen and (max-width: 1005px){
+  .footer-container {
+height:120vh;
+    font-size: 20px;
+    text-align: left;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    grid-template-areas:
+    "container1"
+    "container2"
+    "container3"
+    "container4";
+
+}
+}
+
+.footer-end-link{
+  margin: 30px 30px 50px 30px;
+  color:gray;
+  font-size: 80%;
+
+}
+.footer-end-link:hover{
+  color: green;
+}
+
+
+
+
+.navbar-brand{
+  color: white;
+  font-size: 30px;
+  padding-left: 30px;
+
+}
+.nav-brand-footer{
+
+padding: 5% 5% 0;
+left: 10%;
+}
+
+
+.navbar-brand:hover{
+  color: green ;
+}
+.navbar{
+  padding: 1% 15%;
+  width:100%;
+  position:fixed;
+
+
+}
+.navbar-toggler{
+  color:white;
+}
+.navbar-toggler:hover{
+  color: green;
+}
+.primary-text{
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+}
+.sub-text{
+  text-align: center;
+  color:#fff;
+  font-size: 20px;
+  padding: 15px;
+}
+.sub-btn{
+  text-align: center;
+  padding: 15px 5px 5px 15px;
+}
+.btn{
+  padding:2% 10%;
+
+}
+.nav-link{
+  color:#fff;
+}
+.nav-link:hover{
+  color: green ;
+}
+.icon{
+  color: #fff;
+  margin: 15% 5% 5% 5%;
+
+
+}
+
+.title-grid-div{
+  text-align: center;
+  color: gray;
+  text-align: left;
+}
+
+
+
+
+.dd-content:hover{
+  color:green;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+#footer-section{
+
+
+
+
+
+}
+
+#bodyID{
+  padding: 18% 10%;
+
+}
